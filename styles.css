@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav {
+    color: white;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Montserrat', sans-serif;
+}
+
+.nav-left, .nav-right {
+    display: inline-block;
+    background-color: red;
+}
+
+.nav-left {
+    margin-right: 35%;
+    margin-left: 2.50%;
+    font-size:100px;
+}
+
+.nav-right {
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+.nav-right a {
+    
+    margin-right: 15px;
+}
