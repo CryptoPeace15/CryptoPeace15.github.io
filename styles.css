@@ -11,7 +11,7 @@ a {
 
 .nav {
     color: white;
-    background-color: brown;
+    /*background-color: brown;*/
     display: flex;
     justify-content: space-between;
     font-family:'Montserrat', sans-serif;
@@ -19,7 +19,7 @@ a {
 
 .nav-left, .nav-right {
     display: inline-block;
-    background-color: red;
+   /* background-color: red;*/
 }
 
 .nav-left {
