@@ -45,6 +45,34 @@ a:hover {
     margin-right: 15px;
 }
 
+.intro-text {
+    color: white;
+    margin-top: 75px;
+    margin-left: 75px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro-text h1 {
+    font-size: 60px;
+}
+
+.learn-more button {
+    margin-left: 5%;
+    border: none;
+    border-radius: 25px;
+    width:100px;
+    height: 100px;
+    transition: all .25s ease-in-out;
+    
+}
+
+.learn-more button:hover {
+    color: red;
+    transform: scale(1.25)
+    
+}
+
+
 @media only screen and (max-width: 600px) {
     /* styles for screens less than 600px */
     .nav-left {
